@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>learninterest</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>LearnInterest</h1>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Contact</a>
+  <a href="#">About</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <ul>
+		<li><a href="#">Personality Development</a></li>
+        <li><a href="#">Book Summaries</a></li>
+        <li><a href="#">Innovation</a></li>
+        <li><a href="#">Historical Events</a></li>
+        <li><a href="#">Basic Languages</a></li>
+        <li><a href="#">Carrier Plan</a></li>
+        <li><a href="#">Basic Economy</a></li>
+    </ul>
+  </div>
+  
+  <div class="column middle">
+    <h2>Main Content</h2>
+  
+  </div>
+  
+  <div class="column side">
+    <h2>ChatBot</h2>
+  </div>
+</div>
+
+<div class="footer">
+  <p>learninterest@copyright</p>
+</div>
+  
+</body>
+</html>
